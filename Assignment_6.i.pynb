@@ -1,0 +1,88 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1c872fdb-5fe1-437b-a150-fe3189c70276",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q1: Classes are user defined data types that act as the blueprint for individual \n",
+    "objects,attributes and methods.objects are instances of a class created with specially\n",
+    "defined data.\n",
+    "example \n",
+    "class Person:\n",
+    "  def _init_(self, name, age):\n",
+    "    self.name = name\n",
+    "    self.age = age\n",
+    "\n",
+    "p1 = Person(\"John\", 36)\n",
+    "\n",
+    "print(p1.name)\n",
+    "print(p1.age)\n",
+    "\n",
+    "Q2: THE FOUR PILLARS OF OPPS ARE INHERITANCE,POLYMORPHISM,ENCAPSULATION,ABSTRACTION.\n",
+    "\n",
+    "Q3:The `_init()` function is a special method used in object-oriented programming (OOP) to perform initialization – that is, it is called when an object is created for the first time. In Python, the `init_()` function is called automatically when an object is created, so it can be used to set up parameters for the object or perform any action that must take place before the object can be used.\n",
+    "\n",
+    "For example, when creating a class for a bank account, the `_init_()` function could be used to set the balance of the account to 0. The following code shows how this could be done in Python:\n",
+    "\n",
+    "Python\n",
+    "class BankAccount:\n",
+    "    def __init__(self):\n",
+    "        self.balance = 0\n",
+    "\n",
+    "my_account = BankAccount()\n",
+    "print(my_account.balance)  # Output: 0\n",
+    "\n",
+    "Q4:IN OBJECT ORIENTED PROGRAMMING(OPPs) THE USE SELF IS A WAY TO REFER TO CURRENT\n",
+    "INSTANCES OF A CLASS.THE SELF KEYWORD IS USED TO REPRESENT INSTANCE OF THE\n",
+    "CLASS AND ACCESS ATTRIBUTES AND OTHER METHOD ON  SAME OBJECT.\n",
+    "example-\n",
+    "class person:\n",
+    "    def __init__(self,name):\n",
+    "        self.name=name\n",
+    "    \n",
+    "    def say_hello(self):\n",
+    "        print('hello,my name is ' +self.name')\n",
+    "p=person('rajeev')\n",
+    "p.say_hello()# output:'hello,my name is rajeev'\n",
+    "\n",
+    "Q5:IN OPPs ,inheritance is a way to create relationships between classes.\n",
+    "it allows a class to inherit properties,methods,and behaviour from another\n",
+    "class(the parent class).\n",
+    "inheritance comes in three main types:single inheritance,multiple inheritance \n",
+    "and hierarchical inheritance.\n",
+    "single inheritance when a class inherits from only one parent class.\n",
+    "for example- a car class could be inherit from a vechicle class.\n",
+    "multiple inheritance is when a class inherits from two or more parent classes.\n",
+    "for example- a sports car class could inherit from a car class.\n",
+    "hierarchical inheritance is when a class more than one sub class inherits the property \n",
+    "of a single base class.\n",
+    "for example- physics,chemistry,biology are derived from science class.\n",
+    "\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
